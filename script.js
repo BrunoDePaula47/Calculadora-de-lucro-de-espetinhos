@@ -90,48 +90,48 @@ function calcular(){
     if(gastoBoi == 0){
         resultado.innerHTML += ``
     }else{
-         resultado.innerHTML += `<p>R$: ${gastoBoi}  Boi</p>`}
+         resultado.innerHTML += `<p>R$: ${gastoBoi.toFixed(2)}  Boi</p>`}
     if(gastoPorco == 0){
         resultado.innerHTML += ``
     }else{ 
-        resultado.innerHTML += `<p>R$: ${gastoPorco}  Porco</p>`}
+        resultado.innerHTML += `<p>R$: ${gastoPorco.toFixed(2)}  Porco</p>`}
     if(gastoMedalhao == 0){
         resultado.innerHTML += ``
     }else{
-        resultado.innerHTML += `<p>R$: ${gastoMedalhao} Medalhão</p>`}
+        resultado.innerHTML += `<p>R$: ${gastoMedalhao.toFixed(2)} Medalhão</p>`}
     if(gastoLinguica == 0){
         resultado.innerHTML += ``
     }else{
-        resultado.innerHTML += `<p>R$: ${gastoLinguica} Linguiça</p>`}
+        resultado.innerHTML += `<p>R$: ${gastoLinguica.toFixed(2)} Linguiça</p>`}
     if(gastoFrango == 0){
         resultado.innerHTML += ``
     }else{
-        resultado.innerHTML += `<p>R$: ${gastoFrango} Frango</p>`}
+        resultado.innerHTML += `<p>R$: ${gastoFrango.toFixed(2)} Frango</p>`}
 
-    resultado.innerHTML += `<h4 class="sombra"> TOTAL R$:  ${gastoTotal}</h4>`
+    resultado.innerHTML += `<h4 class="sombra"> TOTAL R$:  ${gastoTotal.toFixed(2)}</h4>`
     resultado.innerHTML += `<h3 class="sombra">LUCRO:</h3>`
     
     if(lucroBoi == 0){
         resultado.innerHTML+= ``
     }else{
-        resultado.innerHTML += `<p>R$ ${lucroBoi} Boi</p>`}
+        resultado.innerHTML += `<p>R$ ${lucroBoi.toFixed(2)} Boi</p>`}
     if(lucroPorco == 0){
         resultado.innerHTML+= ``
     }else{
-        resultado.innerHTML += `<p>R$ ${lucroPorco} Porco</p>`}
+        resultado.innerHTML += `<p>R$ ${lucroPorco.toFixed(2)} Porco</p>`}
     if(lucroMedalhao == 0){
         resultado.innerHTML += ``
     }else{
-        resultado.innerHTML += `<p>R$ ${lucroMedalhao} Medalhão</p>`}
+        resultado.innerHTML += `<p>R$ ${lucroMedalhao.toFixed(2)} Medalhão</p>`}
     if(lucroLinguica == 0){
         resultado.innerHTML += ``
     }else{
-        resultado.innerHTML += `<p>R$ ${lucroLinguica} Linguiça</p>`}
+        resultado.innerHTML += `<p>R$ ${lucroLinguica.toFixed(2)} Linguiça</p>`}
     if(lucroFrango == 0){
         resultado.innerHTML += ``
     }else{
-        resultado.innerHTML += `<p>R$ ${lucroFrango} Frango</p>`
+        resultado.innerHTML += `<p>R$ ${lucroFrango.toFixed(2)} Frango</p>`
     }
-    resultado.innerHTML += `<h4 class="sombra">TOTAL R$: ${lucroTotal}</h4>`
+    resultado.innerHTML += `<h4 class="sombra">TOTAL R$: ${lucroTotal.toFixed(2)}</h4>`
    
 }
