@@ -1,0 +1,92 @@
+
+@keyframes changeButton {
+    0%{background-color: red;}
+    50%{background-color: rgb(202, 3, 3)}
+    100%{background-color: rgb(116, 0, 0);}
+ 
+}
+
+
+body{
+   
+    background-image:url(./imagens/markus-winkler-WHtVB-RiW2I-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+h1{
+    font-size: 30px;
+}
+
+.container{
+    
+    color: rgb(255, 196, 0);
+    font-family: OCR A Std, monospace, sans-serif;
+    max-width: 200px;
+    min-width: 50px;
+    margin: auto;
+    margin-top: 12%;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(29, 29, 29, 0.9) ;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    letter-spacing: -0.5px;
+    font-size: 25px;
+    transition-property: smooth;
+    transition-duration: 500ms;
+    
+}
+
+.seta{
+    text-decoration: none;
+    font-size: 50px;
+    color:rgb(255, 196, 0);
+}
+.sombra{
+    font-size: 30px;
+    text-shadow: 3px 3px black;
+}
+
+p{  font-size: 23px;
+    font-weight: bold;
+}
+
+button{
+    font-family: OCR A Std, monospace, sans-serif;;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: rgb(166, 0, 0)d;
+    color: aliceblue;
+    text-shadow: #bbbbbb;
+    animation-name: changeButton;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+input{
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+.dev{
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}

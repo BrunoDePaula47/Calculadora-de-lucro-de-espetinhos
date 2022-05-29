@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="imagenx/png" href="./imagens/4856411.png">
+</head>
+
+<body>
+
+    <!--(Voltado para celular)(Não tenho esperiência com nenhum framework) Sistema pra calcular lucro de espetinhos vendidos no meu bar, só pra facilitar minha vida no bar -->
+
+    <div class="container">
+
+        <h1 class="sombra">Calculadora</h1>
+
+        <div class="quantidade">
+            <h2 class="sombra">Quantidade</h2>
+            <input id="boi" name="boi" type="number" placeholder="Boi">
+            <input id="porco" name="porco" type="number" placeholder="Porco">
+            <input id="medalhao" name="medalhao" type="number" placeholder="Medalhão">
+            <input id="linguica" name="linguica" type="number" placeholder="Linguiça">
+            <input id="frango" name="frango" type="number" placeholder="Frango">
+        </div>
+        <div class="valorBase">
+            <h2 class="sombra">Valor Base</h2>
+            <input id="boiB" name="boiB" type="number" placeholder="Boi Base">
+            <input id="porcoB" name="porcoB" type="number" placeholder="Porco Base">
+            <input id="medalhaoB" name="medalhaoB" type="number" placeholder="Medalhão Base">
+            <input id="linguicaB" name="linguicaB" type="number" placeholder="Linguiça Base">
+            <input id="frangoB" name="frangoB" type="number" placeholder="Frango Base">
+        </div>
+
+        <div class="preco">
+            <h2 class="sombra">Preço</h2>
+
+            <input id="boiP" name="boiP" type="number" placeholder="Boi Preço ">
+            <input id="porcoP" name="porcoP" type="number" placeholder="Porco Preço">
+            <input id="medalhaoP" name="medalhaoP" type="number" placeholder="Medalhão Preço">
+            <input id="linguicaP" name="linguicaP" type="number" placeholder="Linguiça Preço">
+            <input id="frangoP" name="frangoP" type="number" placeholder="Frango Preço ">
+
+
+
+            <button onclick="calcular()">CALCULAR</button>
+
+            <div id="resultado"></div>
+        </div>
+    </div>
+        <br><br><br>
+    <div class="dev">
+    <a class="dev" href="https://www.instagram.com/bruno.de.paula.47/">Desenvolvido por Bruno de Paula.</a>
+</div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
