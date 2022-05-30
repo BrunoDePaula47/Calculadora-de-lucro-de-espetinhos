@@ -84,7 +84,7 @@ function calcular(){
     resultado.innerHTML = `<a class="seta" href="#faturamento">⏬</a>`
     resultado.innerHTML += `<a name="faturamento">`
     resultado.innerHTML += `<h3 class="sombra">Você vendeu: ${totalQ} Espetinhos`
-    resultado.innerHTML += `<h4 class="sombra">Faturamento de R$: ${vendido}</h4>`
+    resultado.innerHTML += `<h4 class="sombra">Faturamento de R$: ${vendido.toFixed(2)}</h4>`
     resultado.innerHTML += `<h3 class="sombra">GASTOS:</h3>`
    
     if(gastoBoi == 0){
