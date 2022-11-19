@@ -81,7 +81,6 @@ function calcular(){
     
    
     //Inserindo os resultados na tela (HTML) do Usuário.
-    resultado.innerHTML = `<a class="seta" href="#faturamento">⏬</a>`
     resultado.innerHTML += `<a name="faturamento">`
     resultado.innerHTML += `<h3 class="sombra">Você vendeu: ${totalQ} Espetinhos`
     resultado.innerHTML += `<h4 class="sombra">Faturamento de R$: ${vendido.toFixed(2)}</h4>`
